@@ -3,6 +3,7 @@ package com.demouser.cucumber.steps;
 import com.demouser.cucumber.serenity.UserSerenitySteps;
 import com.demouser.junit.driventdata.UserDriventDataTest;
 import com.demouser.testbase.TestBase;
+import com.model.UserClass;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import io.restassured.http.ContentType;
@@ -53,4 +54,5 @@ public class UserSteps extends TestBase {
                 .body("name", equalTo(name));
 
     }
+
 }

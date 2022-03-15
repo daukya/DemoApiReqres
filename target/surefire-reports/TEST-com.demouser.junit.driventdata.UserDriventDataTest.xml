@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.demouser.junit.driventdata.UserDriventDataTest" time="11.516" tests="10" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.demouser.junit.driventdata.UserDriventDataTest" time="12.087" tests="10" errors="0" skipped="0" failures="0">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,14 +64,14 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="updateUserDriventData[0]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="2.35"/>
-  <testcase name="updateUserDriventData[1]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.896"/>
-  <testcase name="updateUserDriventData[2]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.758"/>
-  <testcase name="updateUserDriventData[3]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.712"/>
-  <testcase name="updateUserDriventData[4]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.772"/>
-  <testcase name="updateUserDriventData[5]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.691"/>
-  <testcase name="updateUserDriventData[6]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.741"/>
-  <testcase name="updateUserDriventData[7]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.699"/>
-  <testcase name="updateUserDriventData[8]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="1.041"/>
-  <testcase name="updateUserDriventData[9]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.727"/>
+  <testcase name="updateUserDriventData[0]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="3.252"/>
+  <testcase name="updateUserDriventData[1]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.714"/>
+  <testcase name="updateUserDriventData[2]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="1.054"/>
+  <testcase name="updateUserDriventData[3]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.701"/>
+  <testcase name="updateUserDriventData[4]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.701"/>
+  <testcase name="updateUserDriventData[5]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.684"/>
+  <testcase name="updateUserDriventData[6]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.709"/>
+  <testcase name="updateUserDriventData[7]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.735"/>
+  <testcase name="updateUserDriventData[8]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.691"/>
+  <testcase name="updateUserDriventData[9]" classname="com.demouser.junit.driventdata.UserDriventDataTest" time="0.736"/>
 </testsuite>

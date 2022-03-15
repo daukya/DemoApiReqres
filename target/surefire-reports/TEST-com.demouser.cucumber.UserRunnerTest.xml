@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.demouser.cucumber.UserRunnerTest" time="3.635" tests="3" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.demouser.cucumber.UserRunnerTest" time="7.885" tests="4" errors="0" skipped="0" failures="2">
   <properties>
     <property name="idea.version" value="2021.2.3"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -64,8 +64,8 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="Verify that the status code return 200 when user get list" classname="This is feature contains all scenarios involves user" time="1.255"/>
-  <testcase name="Verify that admin can create user #1" classname="This is feature contains all scenarios involves user" time="1.091">
+  <testcase name="Verify that the status code return 200 when user get user list" classname="This is feature contains all scenarios involves user" time="0.796"/>
+  <testcase name="Verify that admin can create user #1" classname="This is feature contains all scenarios involves user" time="1.126">
     <failure message="1 expectation failed.&#10;JSON path name doesn&apos;t match.&#10;Expected: morpheus&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
 1 expectation failed.
 JSON path name doesn't match.
@@ -84,7 +84,7 @@ Verify that admin can create user(this-is-feature-contains-all-scenarios-involve
 --------------------------------------------------------------------------------
 ]]></system-err>
   </testcase>
-  <testcase name="Verify that admin can create user #2" classname="This is feature contains all scenarios involves user" time="1.139">
+  <testcase name="Verify that admin can create user #2" classname="This is feature contains all scenarios involves user" time="5.106">
     <failure message="1 expectation failed.&#10;JSON path name doesn&apos;t match.&#10;Expected: tuyen&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
 1 expectation failed.
 JSON path name doesn't match.
@@ -105,4 +105,5 @@ Verify that admin can create user
 [main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/tuyenle/Documents/Automation/demoANWeb/demoApi2/src/test/resources/features/user.feature
 ]]></system-err>
   </testcase>
+  <testcase name="delete successfully" classname="This is feature contains all scenarios involves user" time="0.689"/>
 </testsuite>

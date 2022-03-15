@@ -1,7 +1,7 @@
 Feature: This is feature contains all scenarios involves user
 
-  @GetList200
-  Scenario: Verify that the status code return 200 when user get list
+  @GetList
+  Scenario: Verify that the status code return 200 when user get user list
     When user sen get request to get list user then the response show the list user
 
   @CreateUser
@@ -12,3 +12,6 @@ Feature: This is feature contains all scenarios involves user
       | name     | job    |
       | morpheus | leader |
       | tuyen    | member |
+
+
+
