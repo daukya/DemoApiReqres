@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.demouser.junit.driventdata.UserDriventDataTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.516 sec - in com.demouser.junit.driventdata.UserDriventDataTest

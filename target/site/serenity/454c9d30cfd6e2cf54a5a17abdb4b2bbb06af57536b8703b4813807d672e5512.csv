@@ -1,0 +1,2 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"This is feature contains all scenarios involves user","Verify that the status code return 200 when user get list","SUCCESS","2022-03-15T10:52:13.857+07:00[Asia/Ho_Chi_Minh]","0.0","1.23"

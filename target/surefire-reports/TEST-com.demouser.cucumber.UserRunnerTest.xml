@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.demouser.cucumber.UserRunnerTest" time="3.635" tests="3" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib"/>
+    <property name="java.vm.version" value="25.312-b07"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="BellSoft"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/tuyenle/Documents/Automation/demoANWeb/demoApi2"/>
+    <property name="java.vendor.url" value="https://bell-sw.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/tuyenle/Documents/Automation/demoANWeb/demoApi2"/>
+    <property name="java.runtime.version" value="1.8.0_312-b07"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/endorsed"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/wb/df1qf8dn62l07vrms2n8jk7m0000gn/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="maven.ext.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tuyenle/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="11.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/tuyenle"/>
+    <property name="user.timezone" value="Asia/Ho_Chi_Minh"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="tuyenle"/>
+    <property name="java.class.path" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds.license:/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3/boot/plexus-classworlds-2.6.0.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.2.3 install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_312"/>
+    <property name="java.ext.dirs" value="/Users/tuyenle/Library/Java/Extensions:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/resources.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/rt.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/sunrsasign.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/jsse.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/jce.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/charsets.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/lib/jfr.jar:/Users/tuyenle/Library/Java/JavaVirtualMachines/liberica-1.8.0_312/jre/classes"/>
+    <property name="java.vendor" value="BellSoft"/>
+    <property name="maven.home" value="/Applications/IntelliJ IDEA CE.app/Contents/plugins/maven/lib/maven3"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="https://bell-sw.com/support"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="Verify that the status code return 200 when user get list" classname="This is feature contains all scenarios involves user" time="1.255"/>
+  <testcase name="Verify that admin can create user #1" classname="This is feature contains all scenarios involves user" time="1.091">
+    <failure message="1 expectation failed.&#10;JSON path name doesn&apos;t match.&#10;Expected: morpheus&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+JSON path name doesn't match.
+Expected: morpheus
+  Actual: null
+
+</failure>
+    <system-err><![CDATA[[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/tuyenle/Documents/Automation/demoANWeb/demoApi2/src/test/resources/features/user.feature
+[main] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Verify that admin can create user(this-is-feature-contains-all-scenarios-involves-user;verify-that-admin-can-create-user)
+--------------------------------------------------------------------------------
+]]></system-err>
+  </testcase>
+  <testcase name="Verify that admin can create user #2" classname="This is feature contains all scenarios involves user" time="1.139">
+    <failure message="1 expectation failed.&#10;JSON path name doesn&apos;t match.&#10;Expected: tuyen&#10;  Actual: null&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+1 expectation failed.
+JSON path name doesn't match.
+Expected: tuyen
+  Actual: null
+
+</failure>
+    <system-err><![CDATA[[main] ERROR  - 
+  _____   ___   ___   _____     ___     _     ___   _      ___   ___  
+ |_   _| | __| / __| |_   _|   | __|   /_\   |_ _| | |    | __| |   \ 
+   | |   | _|  \__ \   | |     | _|   / _ \   | |  | |__  | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___| |____| |___| |___/ 
+
+Verify that admin can create user
+-----------------------------------------------------------------------
+[main] ERROR  -     Test failed at step: Then check if the user is added with "morpheus"
+[main] ERROR  -     1 expectation failed.JSON path name doesn't match.Expected: morpheus  Actual: null
+[main] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///Users/tuyenle/Documents/Automation/demoANWeb/demoApi2/src/test/resources/features/user.feature
+]]></system-err>
+  </testcase>
+</testsuite>

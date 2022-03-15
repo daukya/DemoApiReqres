@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="2" name="This is feature contains all scenarios involves user" skipped="0" tests="3" time="3.51" timestamp="2022-03-15 10:52:13"><testcase name="Verify that the status code return 200 when user get list"/><testcase name="Verify that admin can create user"><failure message="1 expectation failed.&#10;JSON path name doesn't match.&#10;Expected: morpheus&#10;  Actual: null&#10;" type="java.lang.AssertionError">1 expectation failed.
+JSON path name doesn't match.
+Expected: morpheus
+  Actual: null
+</failure><system-err>1 expectation failed.
+JSON path name doesn't match.
+Expected: morpheus
+  Actual: null
+
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:674)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:261)
+io.restassured.internal.ResponseSpecificationImpl.body(ResponseSpecificationImpl.groovy:108)
+io.restassured.internal.ValidatableResponseOptionsImpl.body(ValidatableResponseOptionsImpl.java:244)
+io.restassured.internal.ValidatableResponseImpl.super$2$body(ValidatableResponseImpl.groovy)
+groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:323)
+groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1268)
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy:298)
+io.restassured.internal.ValidatableResponseImpl.body(ValidatableResponseImpl.groovy)
+com.demouser.cucumber.steps.UserSteps.checkIfTheUserIsAddedWith(UserSteps.java:53)
+✽.check if the user is added with "morpheus"(file:///Users/tuyenle/Documents/Automation/demoANWeb/demoApi2/src/test/resources/features/user.feature:10)
+</system-err></testcase></testsuite>
